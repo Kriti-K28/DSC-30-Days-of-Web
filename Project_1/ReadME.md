@@ -1,4 +1,4 @@
-#Project 1: HTML Project (Barebones Portfolio)
+Project 1: HTML Project (Barebones Portfolio)
 In this project I created a html file with following feature
 
 Header
