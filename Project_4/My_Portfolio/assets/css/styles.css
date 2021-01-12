@@ -1,0 +1,421 @@
+*
+{
+    font-family: 'Grenze Gotisch', cursive;
+}
+html {
+  overflow-x: hidden
+  }
+hr
+{
+  border-top: 3px double #8c8b8b;
+  width:100%;
+  margin-top: 42px;
+}
+.container,
+.container-fluid,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.intro-title
+{
+    margin-top: 150px;
+    text-align: center;
+    font-weight: bold;
+    color: #263F44;
+}
+.text-slider-items
+{
+  text-align: center; margin-left:350px; font-weight: bold; font-size: 25px;
+}
+@media (min-width: 576px),(max-width : 767px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+  .intro-title
+  {
+    margin-top: 100px;
+  }
+ 
+}
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+}
+body
+{
+    margin:0px auto;
+    width:100%;
+    background-color: black;
+    color: #fff1cf;
+}
+.title
+{
+  text-align: center;
+  font-size: 35px;
+}
+.title-span
+{
+  color: #ff1e56;
+  font-size:45px ;
+}
+
+.navbar ul li
+{
+    list-style-type: none;
+     padding-right: 1.5em;
+     color:#f1f3f8;
+     font-size: 20px;
+}
+.navbar ul
+{
+  margin-left: auto;
+}
+nav
+{
+    width: 100%;
+    height: 70px;
+    background-color:#393B44;
+    position: fixed;
+}
+nav ul li a
+{
+  text-decoration: none;
+  color:#f1f3f8;
+   padding:5px;
+   border-top-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   transition: 0.3s linear;
+}
+nav ul li a:hover
+{
+  
+  background-color: crimson;
+ 
+}
+.cover-container {
+  max-width: 42em;
+}
+.jumbotron
+{
+    padding: 70px 30px 70px 30px;
+    margin: 0 auto;
+    color: floralwhite;
+    height: 100vh;
+    background-size: cover;
+}
+.bg-image
+{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+/* About Section */
+.about
+{
+  height:100vh;
+  width:100%;
+  text-align: left;
+}
+.about .container div
+{
+  margin-left: 5px;
+  margin-right:5px;
+  float:left;
+  font-size: 20px; 
+}
+#about-box
+{
+  width: 300px;
+  height:200px;
+  border: 10px solid#FFD369;
+  padding: 50px;
+  margin: 0px;
+}
+@media(min-width:320px)and (max-width:767px) {
+  #about-box {
+    max-width: 200px;
+    max-height: 80px;
+    border: 5px solid #FFD369;
+  }
+}
+.about p{
+  font-family: 'Grenze Gotisch', cursive;
+}
+.square {
+    transform: rotate(-45deg);
+    width: 80px;
+    height: 80px;
+     z-index:-1;
+    border: 2px solid  #ff1e56;;
+    background: transparent;
+    border-top: 2px solid  #ff1e56;;
+    box-shadow: 10px 10px  #ff1e56;;
+}
+@media(min-width:320px)and (max-width:767px) {
+  .square {
+    max-width: 60px;
+    max-height: 60px;
+   
+  }
+}
+/* Skills section */
+.skills
+{
+  
+  display: table;
+  height:100vh;
+  width:100%;
+ 
+}
+#skill_table{
+  width: 100%;
+  background-image: linear-gradient(-45deg,#FFAC41,black);
+}
+.skills .container .imag
+{
+  border-spacing: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.skills .container .card {
+ 
+  border-radius: 0.5rem;
+  width: 100%;
+  box-shadow: 10 1px 2px #393B44;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.skills .container .card:hover{
+  box-shadow: 0 15px 25px #393B44;
+} 
+.skills-card
+  {
+    background-image: linear-gradient(180deg,rgb(209, 28, 28), rgb(83, 79, 79));
+  }
+/* Project section */
+.project
+{
+  display: table;
+  height:100vh;
+  width:100%;
+  padding-bottom: 40px;
+}
+.project a{
+    text-decoration: none;
+    padding-left: 1%;
+}
+ #all
+{
+  /* background-color: red; */
+  width:100%;
+  height: 80vh;
+  padding-top: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#game
+{
+  /* background-color: cyan; */
+  height: 40vh;
+  margin-left: 60px;
+}
+#gameBtn
+{
+    max-height:50vh; 
+}
+#webBtn
+{
+  height:38vh;
+  width: 29%;
+  margin-left: auto;
+  margin-right: 168px;
+  margin-top:  -220px;
+}
+.project-box figure img {
+	
+
+	transition: transform .2s;
+}
+.project-box figure:hover img {
+  transform: scale(1.2);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+/* Contact Section */
+.contact
+{
+  display: flex;
+  height:100vh;
+  width:100%;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #FFAC41; ;
+  align-items: center;
+  height: 100vh;
+  padding: 20px 20px 20px 20px;
+  
+}
+.flex-container>div { 
+  color: white;
+  width: 50%;
+  height: 100vh;
+}
+.fa-stack
+{
+  color:#263F44;
+}
+ .container-f
+ {
+   width: 80%;
+   padding: 0px;
+ }
+ .container-f .row100
+ {
+   position: relative;
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(autofit,minmax(300px,1fr));
+ }
+ .container-f .row100 .col
+{
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+}
+.container-f .row100 .inputBox
+{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  /* background: transparent; */
+  color:  #263F44;
+
+}
+.container-f .row100 .inputBox input ,
+.container-f .row100 .inputBox.textarea textarea
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 0 10px;
+  z-index: 1;
+  color: #fff1cf;
+
+}
+
+.container-f .row100 .inputBox .text
+{
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  font-size: 18px;
+  padding: 0 10px;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.container-f .row100 .inputBox input:focus + .text, 
+.container-f .row100 .inputBox input:valid + .text
+{
+    top:-35px ;
+    left:-10px;
+
+} 
+.container-f .row100 .inputBox .line
+{
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background:  #263F44;
+  transition: 00.5s;
+  border-radius: 2px;
+  pointer-events: none;
+}
+.container-f .row100 .inputBox input:focus ~ .line, 
+.container-f .row100 .inputBox input:valid ~ .line
+{
+   height: 100%;
+} 
+.container-f .row100 .inputBox.textarea
+{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  padding: 10px 0;
+
+}
+.container-f .row100 .inputBox.textarea textarea
+{
+  height: 100%;
+  resize: none;
+}
+
+.container-f .row100 .inputBox textarea:focus + .text, 
+.container-f .row100 .inputBox textarea:valid + .text
+{
+    top:-35px ;
+    left:-10px;
+
+} 
+.container-f .row100 .inputBox textarea:focus ~ .line, 
+.container-f .row100 .inputBox textarea:valid ~ .line
+{
+   height: 100%;
+} 
+input[type=submit] {
+  /* width: 30%;
+  border: 2px outset crimson; */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  background: #263F44;
+  color: #fff1cf;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 8px 0;
+  margin-left: 10px;
+  box-shadow: 5px 5px 10px #649eaa ;
+}
+input[type=submit]:hover
+{
+    background-color: rgba(114, 90, 90, 0.603);
+    box-shadow: 2px 2px 5px red;
+}
+
